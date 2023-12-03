@@ -110,25 +110,25 @@ CONNECT server:80
 Os códigos de status HTTP são retornados como parte das respostas do servidor para indicar o resultado da solicitação feita pelo cliente. Cada código de status é composto por três dígitos e está agrupado em classes que indicam a natureza da resposta.
 
 **Classes Principais**
-1. 1xx - Informativos
+**1. 1xx - Informativos**
 * 100 Continue: O servidor recebeu a solicitação inicial e o cliente pode continuar com a solicitação.
    
-2. 2xx - Sucesso
+**2. 2xx - Sucesso**
 * 200 OK: A solicitação foi bem-sucedida.
 * 201 Created: A solicitação foi bem-sucedida, e um novo recurso foi criado como resultado.
 * 204 No Content: A solicitação foi bem-sucedida, mas não há conteúdo para ser retornado.
 
-3. 3xx - Redirecionamento
+**3. 3xx - Redirecionamento**
 * 301 Moved Permanently: O recurso solicitado foi movido permanentemente para uma nova localização.
 * 302 Found (ou 303 See Other): O recurso foi temporariamente movido para uma nova localização.
 
-4. 4xx - Erro do Cliente
+**4. 4xx - Erro do Cliente**
 * 400 Bad Request: A solicitação do cliente é inválida ou malformada.
 * 401 Unauthorized: O cliente deve se autenticar para obter a resposta solicitada.
 * 403 Forbidden: O cliente não tem permissões suficientes para acessar o recurso.
 * 404 Not Found: O recurso solicitado não foi encontrado no servidor.
 
-5. 5xx - Erro do Servidor
+**5. 5xx - Erro do Servidor**
 * 500 Internal Server Error: O servidor encontrou uma situação inesperada que impediu o processamento da solicitação.
 * 502 Bad Gateway: O servidor, enquanto atuando como gateway ou proxy, recebeu uma resposta inválida do servidor upstream.
 * 503 Service Unavailable: O servidor não está pronto para manipular a solicitação. Geralmente, está temporariamente fora de serviço.   
