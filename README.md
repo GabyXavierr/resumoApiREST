@@ -109,7 +109,7 @@ CONNECT server:80
 # HTTP Status Code <h1>
 Os códigos de status HTTP são retornados como parte das respostas do servidor para indicar o resultado da solicitação feita pelo cliente. Cada código de status é composto por três dígitos e está agrupado em classes que indicam a natureza da resposta.
 
-Classes Principais
+**Classes Principais**
 1. 1xx - Informativos
 * 100 Continue: O servidor recebeu a solicitação inicial e o cliente pode continuar com a solicitação.
    
@@ -133,5 +133,5 @@ Classes Principais
 * 502 Bad Gateway: O servidor, enquanto atuando como gateway ou proxy, recebeu uma resposta inválida do servidor upstream.
 * 503 Service Unavailable: O servidor não está pronto para manipular a solicitação. Geralmente, está temporariamente fora de serviço.   
 
-Autor do resumo: Gabriely Xavier - 01570523
+**Autor do resumo: Gabriely Xavier - 01570523**
 
